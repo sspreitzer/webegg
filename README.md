@@ -22,5 +22,5 @@ import webegg
 webegg.load('https://example.com/py/helloworld.py', globals())
 webegg.load('https://example.com/py/test.py', globals())
 
-webegg.xload('https://example.com/py', ['helloworld', 'test'], globals)
+webegg.xload('https://example.com/py', ['helloworld', 'test'], globals())
 ```
